@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Game.Characters.BaseCharacter">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAQAAAEAAAAAAAgQAAAAIAAACAA=</HashCode>
+      <FileName>Assets\Scripts\Character\BaseCharacter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Managers.CharacterManager">
+    <Position X="5.75" Y="4" Width="1.5" />
+    <AssociationLine Name="Status" Type="Game.Managers.ManagerStatus" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.75" Y="4.688" />
+        <Point X="5.375" Y="4.688" />
+        <Point X="5.375" Y="3.875" />
+        <Point X="4.5" Y="3.875" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.227" Y="-0.307" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAgAAEAAAAAAAAAAAAAAAAQAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Managers\Character\CharacterManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Status" />
+    </ShowAsAssociation>
+    <Lollipop Position="1.3" />
+  </Class>
+  <Class Name="Game.Managers.PlayerManager">
+    <Position X="5.75" Y="6" Width="1.5" />
+    <AssociationLine Name="Status" Type="Game.Managers.ManagerStatus" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.75" Y="6.188" />
+        <Point X="3.812" Y="6.188" />
+        <Point X="3.812" Y="4.239" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.698" Y="0.813" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="managers" Type="Game.Managers.Managers" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.062" Y="7.81" />
+        <Point X="6.062" Y="9.002" />
+        <Point X="3.75" Y="9.002" />
+        <Point X="3.75" Y="8.627" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.952" Y="0.115" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAQAgAAEAAAAAAAAAAAAAAAAYAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Managers\Character\Player\PlayerManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="managers" />
+      <Property Name="Status" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Game.Managers.Managers">
+    <Position X="3" Y="6.75" Width="1.5" />
+    <AssociationLine Name="Instance" Type="Game.Managers.Managers" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3.438" Y="6.75" />
+        <Point X="3.438" Y="6.5" />
+        <Point X="4.25" Y="6.5" />
+        <Point X="4.25" Y="6.75" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.097" Y="0.253" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="Player" Type="Game.Managers.PlayerManager" FixedFromPoint="true">
+      <Path>
+        <Point X="4.5" Y="7.188" />
+        <Point X="5.75" Y="7.188" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="startSequence" Type="Game.Managers.IManager" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="3" Y="7.375" />
+        <Point X="1.125" Y="7.375" />
+        <Point X="1.125" Y="6.738" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.198" Y="0.252" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAQACAAQAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Managers\Managers.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Instance" />
+      <Property Name="Player" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Field Name="startSequence" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Game.Characters.Abilities.BaseAbility">
+    <Position X="11.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAQAAAAAAAAAAAAAAAAAAAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripts\Character\Abilities\BaseAbility.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Character" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Game.Characters.Abilities.HorizontalMovement">
+    <Position X="13" Y="3" Width="1.75" />
+    <InheritanceLine Type="Game.Characters.Abilities.BaseAbility" FixedToPoint="true">
+      <Path>
+        <Point X="12.25" Y="1.925" />
+        <Point X="12.25" Y="2.625" />
+        <Point X="13.75" Y="2.625" />
+        <Point X="13.75" Y="3" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAQAQAAAAoAAAQQEAAAEBAAAABAAgBRAQgAAAAFAAAA=</HashCode>
+      <FileName>Assets\Scripts\Character\Abilities\HorizontalMovement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Characters.Character">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Character\Character.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Characters.Abilities.VerticalMovement">
+    <Position X="9.75" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAgAAAggAAAAAIAAAACAAAAgAAEAAAABAAABAAAA=</HashCode>
+      <FileName>Assets\Scripts\Character\Abilities\VerticalMovement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Game.Managers.IManager">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <AssociationLine Name="Status" Type="Game.Managers.ManagerStatus" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2" Y="5.875" />
+        <Point X="2.375" Y="5.875" />
+        <Point X="2.375" Y="4" />
+        <Point X="3" Y="4" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAgAAEAAAAAAAAAAAAAAAAQAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Managers\IManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Status" />
+    </ShowAsAssociation>
+  </Interface>
+  <Enum Name="Game.Managers.ManagerStatus">
+    <Position X="3" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAQAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Managers\ManagerStatus.enum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

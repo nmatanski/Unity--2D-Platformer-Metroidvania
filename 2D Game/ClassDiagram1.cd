@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Game.Characters.Character" Collapsed="true">
+    <Position X="2" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAQAAAAAAAACAA=</HashCode>
+      <FileName>Assets\Scripts\Character\Character.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Extensions.StringExtensions" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Extensions\StringExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Managers.CharacterManager" Collapsed="true">
+    <Position X="2" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAEAAAAAAAAAAAAAAAAQAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Managers\Character\CharacterManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Game.Managers.PlayerManager">
+    <Position X="2" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAEAAAAAQAAAAAAAAAAYAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Managers\Character\Player\PlayerManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game.Managers.Managers" Collapsed="true">
+    <Position X="9.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAQACAAQAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Managers\Managers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Game.Managers.IManager" Collapsed="true">
+    <Position X="4" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAEAAAAAAAAAAAAAAAAQAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Managers\IManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Game.Managers.ManagerStatus" Collapsed="true">
+    <Position X="7.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAQAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Managers\ManagerStatus.enum.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
