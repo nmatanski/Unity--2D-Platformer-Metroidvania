@@ -1,0 +1,23 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/2D Game/.vs/2D Game/v16
+/2D Game/Temp
+/2D Game/[Ll]ibrary/
+/2D Game/obj/
+/2D Game/obj/Debug/
+/2D Game/Logs/
+
+/2D Game/ExportedObj/
+*/obj/
+*.svd
+*.userprefs
+/*.csproj
+*.pidb
+*.suo
+/*.sln
+*.user
+*.unityproj
+*.booproj
+

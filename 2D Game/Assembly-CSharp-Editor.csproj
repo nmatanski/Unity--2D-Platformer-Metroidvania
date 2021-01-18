@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>Game</RootNamespace>
-    <ProjectGuid>{426D5495-2550-CE32-3536-EC2F42315082}</ProjectGuid>
+    <ProjectGuid>{32E71E57-F73C-6951-C3BC-62F02239B3C8}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-Editor</AssemblyName>
@@ -830,7 +830,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
-      <Project>{7B39237E-EB72-FD6B-2E8B-43A009CC29FC}</Project>
+      <Project>{3BD99DA7-BD93-6366-344B-4F2C33A41684}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
   </ItemGroup>
